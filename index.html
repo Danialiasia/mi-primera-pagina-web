@@ -1,92 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi Página Web</title>
-  <style>
-    /* Estilos CSS aquí */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-    header {
-      background-color: #f2f2f2;
-      padding: 20px;
-    }
+        header {
+            background-color: #1E90FF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
 
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
+        h1 {
+            font-size: 32px;
+            margin: 0;
+        }
 
-    nav ul li {
-      display: inline;
-      margin-right: 10px;
-    }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
 
-    nav ul li a {
-      text-decoration: none;
-      color: #333;
-    }
+        h2 {
+            font-size: 24px;
+        }
 
-    section {
-      padding: 20px;
-    }
+        p {
+            line-height: 1.5;
+        }
 
-    footer {
-      background-color: #f2f2f2;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li::before {
+            content: "▸ ";
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .cabecera-imagen {
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Bienvenido a Mi Página Web</h1>
-  </header>
-  
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Servicios</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
-  
-  <section id="inicio">
-    <h2>Inicio</h2>
-    <p>Bienvenido a mi página web. Aquí encontrarás información sobre nuestros productos y servicios.</p>
-  </section>
-  
-  <section id="acerca">
-    <h2>Acerca de</h2>
-    <p>Somos una empresa dedicada a brindar soluciones web. Contamos con un equipo de profesionales altamente capacitados.</p>
-  </section>
-  
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <ul>
-      <li>Diseño web</li>
-      <li>Desarrollo de aplicaciones</li>
-      <li>Optimización SEO</li>
-    </ul>
-  </section>
-  
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Ponte en contacto con nosotros a través de los siguientes medios:</p>
-    <ul>
-      <li>Teléfono: 123456789</li>
-      <li>Email: info@example.com</li>
-      <li>Dirección: Calle Ejemplo, Ciudad, País</li>
-    </ul>
-  </section>
-  
-  <footer>
-    <p>Derechos de autor &copy; 2023 Mi Página Web</p>
-  </footer>
+    <header>
+        <h1>Biografía de [Tu Nombre]</h1>
+        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Descripción de la imagen" class="cabecera-imagen">
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Hola, soy [Tu Nombre], un [tu área de especialización] con experiencia en [tu campo] y una pasión por [destacar tu enfoque o especialidad]. Me apasiona [mencionar tu motivación o lo que te impulsa en tu trabajo]. A lo largo de mi carrera, he [mencionar logros o experiencias relevantes].</p>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Habilidad 1</li>
+                <li>Habilidad 2</li>
+                <li>Habilidad 3</li>
+                <!-- Agrega más habilidades según sea necesario -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experiencia</h2>
+            <ul>
+                <li>Empresa 1: Cargo - Año</li>
+                <li>Empresa 2: Cargo - Año</li>
+                <li>Empresa 3: Cargo - Año</li>
+                <!-- Agrega más experiencias laborales según sea necesario -->
+            </ul>
+        </section>
+
+        <!-- Agrega más secciones según tus necesidades -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
